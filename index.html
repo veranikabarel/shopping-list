@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Shopping list</title>
+</head>
+
+<body>
+    <div class="wrapper" id="wrapper">
+        <header>
+            <div class="page-banner" id="page-banner">
+                <h1 class="title">Shopping List</h1>
+                <p>Check if the item is already on the list</p>
+                <form id="search-items">
+                    <input type="text" placeholder="Search items..." />
+                </form>
+            </div>
+        </header>
+
+        <div class="main-list" id="shopping-list">
+            <h2 class="title">Groceries to make</h2>
+            <ul>
+                <li>
+                    <span class="name">Lorem</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Lorem</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Lorem</span>
+                    <span class="delete">delete</span>
+                </li>
+                <li>
+                    <span class="name">Lorem</span>
+                    <span class="delete">delete</span>
+                </li>
+            </ul>
+        </div>
+
+        <form id="add-item">
+            <input type="text" placeholder="Add item..." />
+            <button>Add</button>
+        </form>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
